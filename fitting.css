@@ -1,0 +1,314 @@
+/* CSS for Fitting Design 1 */
+
+@font-face {
+    font-family: bevan;
+    src: url('_fonts/bevan/bevan.ttf');
+}
+
+@font-face {
+    font-family: cabin-medium;
+    src: url('_fonts/cabin/cabin-medium.otf');
+}
+
+@font-face {
+    font-family: cabin-bold;
+    src: url('_fonts/cabin/cabin-bold.otf');
+
+}
+
+body {
+    background-color: white;
+/*    background-image: url('_images/fittingimagelighten.jpg');*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'cabinmedium', helvetica;
+    }
+
+
+/*
+header {
+    font-family: cabin-mediumm, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, .55);
+    font-size: 45px;
+    width: 100%;
+    height: 170px;
+    
+}
+*/
+
+#logots {
+    margin-left: 10%;
+    margin-top: 1%;
+    }
+
+
+
+/******Navigation Properties*****/
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Cabin, sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    }
+    
+nav {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+/*    margin-top: -20px;*/
+    padding: 0px;
+    width: 100%;
+
+    font-size: 20px;
+    color: black;
+    z-index: 1;
+    
+    }
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+
+li {
+    
+   display: inline;
+    text-align: center;
+    }
+
+nav ul li {
+
+text-align: center;
+border: none;
+line-height: none;
+margin: 0px 30px 15px 0px;
+padding: 5px 10px 5px 10px;
+font-family: sans-serif;
+color: #FFFFFF;
+    }
+
+
+
+nav ul li:hover {
+   text-decoration: overline;
+    }
+
+/*******Section Properties*******/
+
+aside {
+    position: relative;
+    width: 70%;
+/*    top: 250px;*/
+    margin:  0 auto;
+    text-align: center;
+}
+
+
+/*
+#titlesection {
+    position: relative;
+    top: 50px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: bevan, sans-serif;
+    color: white;
+    margin: 0 auto;
+
+    
+*/
+    }
+
+.sideimg {
+    margin: 0, 0, 20px, 0;
+}
+
+
+
+#one {
+
+    
+  -webkit-transform: rotate(-3deg);
+     -moz-transform: rotate(-3deg);
+       -o-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  
+      border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+
+    
+}
+
+#two {
+  -webkit-transform: rotate(3deg);
+     -moz-transform: rotate(3deg);
+       -o-transform: rotate(30deg);
+      -ms-transform: rotate(3deg);
+          transform: rotate(3deg);
+    
+      border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+#three {
+  -webkit-transform: rotate(-3deg);
+     -moz-transform: rotate(-3deg);
+       -o-transform: rotate(-30deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+    
+      border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+#four {
+  -webkit-transform: rotate(3deg);
+     -moz-transform: rotate(3deg);
+       -o-transform: rotate(30deg);
+      -ms-transform: rotate(3deg);
+          transform: rotate(3deg);
+    
+      border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+#fittinginfo {
+   position: relative;
+    text-align: left;
+    float: left;
+    
+    width: 55%;
+    font-family: cabin-medium, sans-serif;
+    font-size: 14px;
+    margin-right: 46px;
+
+   
+}
+
+#facebooktwo {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: .5%;
+}
+
+#twittertwo {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 15%;
+}
+
+#facebook {
+    float: right;
+}
+
+#twitter {
+    float: right;
+    margin-right: 10%;
+}
+
+#bigger {
+     font-size: 30px;
+    font-family: bevan, sans-serif;
+/*     margin-bottom: -2.5%;*/
+}
+        
+
+/********Paragraph Properties*******/
+
+
+#paraone {
+    font-size: 30px;
+    font-family: cabin-medium, sans-serif;
+}
+
+#paratwo {
+    font-size: 16px;
+    font-family: cabin-medium, sans-serif;
+}
+
+h1 {
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 
+    }
+
+h2 {
+    font-size: 20px;
+    font-family: bevan, sans-serif;
+    margin-bottom: -1%;
+}
+
+hr {
+    width: 200px;
+    height: 5px;
+    color: rgba(0,0,0,.75);
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 125px;
+    clear: left;
+    float: left;
+/*    top: 300px;*/
+    background-color: rgb(39, 25, 40);
+    color: white;
+    font-family: cabin-medium, sans-serif;
+    font-size: 10px;
+    bottom: 0px;
+}
+
+footer ul li {
+   text-align: center;
+    font-family: cabin-medium, sans-serif;
+     font-size: 12px;
+    display: inline;
+    padding: 5px;
+}
+
+footer li:hover {
+
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px, 30px, 0px, 0px;
+    text-align: center;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 600px) {
+    #fittinginfo{
+        width: 100%;
+    }
+    .sideimg{
+        width: 100%;
+    }
+    #paraone
+    {font-size:30px;}
+}

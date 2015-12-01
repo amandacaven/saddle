@@ -1,0 +1,279 @@
+/* CSS for Tucker Saddle Index & Fitting - 1st Version*/
+
+@font-face {
+    font-family: bevan;
+    src: url('_fonts/bevan/bevan.ttf');
+}
+
+@font-face {
+    font-family: cabin-medium;
+    src: url('_fonts/cabin/cabin-medium.otf');
+}
+
+@font-face {
+    font-family: cabin-bold;
+    src: url('_fonts/cabin/cabin-bold.otf');
+
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background-color: white;
+/*
+    background-image: url('_images/homehorselightentext.jpg');
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+    width: 100%;
+*/
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'cabinmedium', helvetica;
+    height: 100%;
+    }
+
+#horses{
+    margin: 0 auto;
+/*    height: 100%;*/
+    width: 100%;
+    
+}
+
+
+/*
+header {
+    font-family: cabin-medium, sans-serif;
+    color: white;
+    background-color: rgb(230, 230, 230);
+    background-color: white;
+    font-size: 45px;
+    width: 100%;
+    height: 170px;
+    
+}
+*/
+
+#facebooktwo {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: .5%;
+}
+
+#twittertwo {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 15%;
+}
+
+#facebook {
+    float: right;
+}
+
+#twitter {
+    float: right;
+    margin-right: 10%;
+}
+
+
+
+/*
+#logots {
+    margin-left: 10%;
+    margin-top: 1%;
+    }
+*/
+
+
+
+/******Navigation Properties*****/
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: cabin-medium, sans-serif;
+    font-size: 12px;
+margin: 0 auto;
+    }
+    
+nav {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+/*    margin-top: 20px;*/
+    padding: 0px;
+    width: 100%;
+   
+    font-size: 20px;
+    color: black;
+    z-index: 1;
+    
+    }
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+
+li {
+    
+   display: inline;
+    text-align: center;
+    top: 50px;
+    }
+
+
+
+nav ul li {
+
+text-align: center;
+border: none;
+line-height: none;
+margin: 0px 15px 0px 0px;
+padding: 0px 10px 0px 10px;
+font-family: sans-serif;
+color: #FFFFFF;
+    }
+
+
+
+nav ul a:hover {
+   text-decoration: overline;
+    color: gray;
+    }
+
+.nav.pull-right > li > a:hover {
+    text-decoration: overline;
+}
+
+footer ul li a:hover{
+    color: gray;
+    text-decoration: overline;
+}
+
+/*******Section Properties*******/
+
+
+#welcomesect {
+    position: relative;
+/*    top: 90px;*/
+    width: 65%;
+    text-align: left;
+    font-family: Bevan, sans-serif;
+    color: white;
+    margin: 0 auto;
+    
+    height: 250px;
+
+    
+    }
+
+#section2 {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+/*    top: 120px;*/
+    width: 47%;
+    font-family: Cabin, sans-serif;
+   
+}
+
+#section3 {
+    position: relative;
+/*    top: 140px;*/
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+        
+
+/********Paragraph Properties*******/
+
+#welcomepara {
+/*    margin-top: -20px;*/
+}
+    
+#paraone {
+    font-size: 40px;
+    font-family: cabin-bold, sans-serif;
+    line-height: 1em;
+    margin-top: 0;
+}
+
+#paratwo {
+    font-size: 16px;
+    font-family: cabin-medium, sans-serif;
+/*    margin-top: -15px;*/
+}
+
+h1 {
+    font-size: 50pt;
+/*
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+*/
+    }
+
+
+
+footer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    clear: both;
+    float: left;
+/*    top: 180px;*/
+    background-color: rgb(39, 25, 40);
+    color: white;
+    font-family: cabin-medium, sans-serif;
+    font-size: 10px;
+    bottom: 0;
+    margin-top: 0;
+
+}
+
+footer ul li {
+   text-align: center;
+    font-family: cabin-medium, sans-serif;
+     font-size: 12px;
+    display: inline;
+    padding: 5px;
+}
+
+footer li:hover {
+
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px, 30px, 0px, 0px;
+    text-align: center;
+    
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 600px) {
+    #section2{
+        width: 100%;
+    }
+    #paraone
+    {font-size:30px;}
+}
+
+
+        .wrapper {
+            min-height: 100%;
+            height: auto !important;
+/*            height: 100%;*/
+/*            margin: 0 auto -63px;*/
+        }
+        .push {
+            height: 63px;
+        }
